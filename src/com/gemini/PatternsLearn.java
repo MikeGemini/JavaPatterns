@@ -2,6 +2,7 @@ package com.gemini;
 
 import first_facing.ff_MallardDuck;
 import first_facing.ff_RedheadDuck;
+import first_facing.ff_RubberDuck;
 
 public class PatternsLearn {
 
@@ -19,5 +20,9 @@ public class PatternsLearn {
         ff_RedheadDuck redheadDuck = new ff_RedheadDuck();
         redheadDuck.display();
         redheadDuck.swim();
+
+        ff_RubberDuck rubberDuck = new ff_RubberDuck();
+        rubberDuck.display();
+        rubberDuck.fly();
     }
 }

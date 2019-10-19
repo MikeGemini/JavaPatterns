@@ -15,7 +15,7 @@ class ff_Duck {
     }
 
     void fly() {
-
+        System.out.println("I can flying. кря-кря");
     }
 
 }
