@@ -6,4 +6,9 @@ public class ff_RedheadDuck extends ff_Duck {
     public void display() {
         super.display(mMsg);
     }
+
+    @Override
+    public void swim() {
+        super.swim();
+    }
 }

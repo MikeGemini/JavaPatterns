@@ -8,4 +8,9 @@ public class ff_MallardDuck extends ff_Duck {
         super.display(mMsg);
 
     }
+
+    @Override
+    public void quack() {
+        super.quack();
+    }
 }
