@@ -1,8 +1,9 @@
 package first_facing;
 
 public class ff_RedheadDuck extends ff_Duck {
-    @Override
+    private String mMsg = "a redhead duck";
+
     public void display() {
-        System.out.println("I\'m the redhead duck");
+        super.display(mMsg);
     }
 }

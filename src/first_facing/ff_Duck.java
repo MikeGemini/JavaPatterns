@@ -1,5 +1,7 @@
 package first_facing;
 
-abstract public class ff_Duck {
-    abstract public void display();
+public class ff_Duck {
+    public void display(String msg) {
+        System.out.println("I\'m " + msg);
+    }
 }
