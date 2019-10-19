@@ -1,4 +1,5 @@
 package first_facing;
 
-public class ff_Duck {
+abstract public class ff_Duck {
+    abstract public void display();
 }
